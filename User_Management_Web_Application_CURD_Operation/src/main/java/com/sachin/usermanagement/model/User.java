@@ -1,4 +1,4 @@
-package net.javaguides.usermanagement.model;
+package com.sachin.usermanagement.model;
 
 
 public class User {

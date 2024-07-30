@@ -1,4 +1,4 @@
-package net.javaguides.usermanagement.dao;
+package com.sachin.usermanagement.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-import net.javaguides.usermanagement.model.User;
+import com.sachin.usermanagement.model.User;
 
 public class UserDAO {
 	private String jdbcURL = "jdbc:mysql://localhost:3306/user";

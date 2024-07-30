@@ -1,4 +1,4 @@
-package net.javaguides.usermanagement.web;
+package com.sachin.usermanagement.web;
 
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
@@ -10,8 +10,8 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-import net.javaguides.usermanagement.dao.UserDAO;
-import net.javaguides.usermanagement.model.User;
+import com.sachin.usermanagement.dao.UserDAO;
+import com.sachin.usermanagement.model.User;
 
 @WebServlet("/")
 public class UserServlet extends HttpServlet {
